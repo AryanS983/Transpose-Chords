@@ -39,3 +39,4 @@ function transposeChords(step) {
     // Update the lyrics input box with the transposed lyrics
     document.getElementById('lyricsInput').value = output;
 }
+

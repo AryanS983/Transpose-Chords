@@ -9,6 +9,7 @@
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -30,6 +31,7 @@
             border: 1px solid #ccc;
             margin-bottom: 15px;
         }
+        
         .button-container {
             display: flex;
             justify-content: center;
@@ -65,6 +67,10 @@
         <div class="counter-display" id="counterDisplay">0</div> <!-- Counter displayed here -->
         <button id="upButton" onclick="transposeChords(1)">Transpose Up</button>
     </div>
+</div>
+<div style="text-align: center; margin-top: 20px; font-size: 14px;">
+    <p>Licensed under the Apache 2.0 License.</p>
+    <p>&copy; 2024 Guitar Chord Transposer</p>
 </div>
 
 <script src="transpose.js"></script>
